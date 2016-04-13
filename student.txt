@@ -1,2 +1,9 @@
-{"driverName":"d","color":"d","gas":"d"}
-{"name":"ds","gender":"sd","grade":"s","gpa":"s","detentions":"sd","sleepingInClass":"sd"}
+
+{"name":"bob","gender":"male","grade":"5","gpa":"2.4","detentions":"nope","sleepingInClass":"yawn"}
+{"name":"Beavis","gender":"male","grade":"3","gpa":"1.0","detentions":"yes","sleepingInClass":"conholio"}
+{"name":"shelly","gender":"femal","grade":"5","gpa":"2","detentions":"no","sleepingInClass":"turd"}
+{"name":"batman","gender":"male","grade":"4","gpa":"4","detentions":"yes","sleepingInClass":"martha"}
+{"name":"Matt","gender":"male","grade":"6","gpa":"3.5","detentions":"yes","sleepingInClass":"rawr"}
+{"name":"Tiffany","gender":"female","grade":"2.3","gpa":"2.6","detentions":"yes","sleepingInClass":"hello"}
+{"name":"Rock","gender":"item","grade":"none","gpa":"0","detentions":"unkwon","sleepingInClass":"none"}
+{"name":"paul","gender":"male","grade":"5","gpa":"3","detentions":"yes","sleepingInClass":"yayaya"}

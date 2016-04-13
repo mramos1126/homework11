@@ -13,10 +13,7 @@ prompt.get(['name', 'gender' , 'grade' , 'gpa', 'detentions', 'sleepingInClass' 
  newSleeping = result.sleepingInClass;
  newCatchPhrase = result.catchPhrase;
 
-// console.log(result.gender);
-// console.log(result.detentions);
-// console.log(result.sleepingInClass);
-// console.log(result.catchPhrase);
+
 
 var MainBus = new bus(newName, newGender, newGrade, newGpa, newSleeping, newCatchPhrase);
 	console.log(MainBus);
