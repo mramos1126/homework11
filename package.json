@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mramos1126/homework11#readme",
   "dependencies": {
+    "node-fs": "^0.1.7",
     "prompt": "^1.0.0"
   }
 }

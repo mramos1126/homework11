@@ -1,7 +1,8 @@
 var prompt = require('prompt')
 var bus = require("./bus.js")
 var Student = require('./student.js');
-prompt.start();
+ var fs = require('fs')
+ prompt.start();
 
 prompt.get(['name', 'gender' , 'grade' , 'gpa', 'detentions', 'sleepingInClass' , 'catchPhrase'], function (err, result) {
 
@@ -22,5 +23,12 @@ var MainBus = new bus(newName, newGender, newGrade, newGpa, newSleeping, newCatc
 var NewStudent = new Student(newName, newGender, newGrade, newGpa, newSleeping, newCatchPhrase);
 NewStudent.canStudentHaveFun();
 
+fs.appendFile("student.txt", JSON.stringify(NewStudent) + "\r\n", function(err){
+		if(err)
+			throw err;
+		else{
+		//	console.log("Item added to menu");
+		}
+	})
 
 	});
